@@ -12,3 +12,7 @@ func Random() int {
 func Seed(i int) {
 	C.srandom(C.uint(i))
 }
+
+func Hello() string {
+	return "Hello, I'm Randy, a Go program that imports \"C\"!"
+}

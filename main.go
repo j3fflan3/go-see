@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
+	fmt.Println(randy.Hello())
 	randy.Seed(5)
 	fmt.Println(randy.Random())
 }
